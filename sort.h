@@ -23,5 +23,7 @@ void print_array(const int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void swap_till_end(listint_t **list, listint_t **element, size_t size);
 void selection_sort(int *array, size_t size);
+void _qsort(int *a, int low, int high, int size);
+void quick_sort(int *array, size_t size);
 
 #endif
