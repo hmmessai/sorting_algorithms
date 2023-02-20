@@ -2,6 +2,7 @@
 #define SORT_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -30,5 +31,6 @@ void _ssort(int *a, int size, int n);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t **n);
 int sorted(listint_t **list);
+void counting_sort(int *array, size_t size);
 
 #endif
