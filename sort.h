@@ -34,5 +34,6 @@ int sorted(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *, size_t);
 void heap_sort(int *, size_t);
+void radix_sort(int *, size_t);
 
 #endif
