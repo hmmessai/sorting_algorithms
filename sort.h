@@ -36,5 +36,8 @@ void print_data(char *msg, int *a, int from, int to);
 void merge(int *, int, int, int, int *);
 void msort(int *, int, int, int *);
 void merge_sort(int *, size_t);
+void swap_nums(int *, int, int);
+void recursion_heap(int *, int, size_t, int);
+void heap_sort(int *, size_t);
 
 #endif
