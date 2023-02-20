@@ -32,5 +32,9 @@ void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t **n);
 int sorted(listint_t **list);
 void counting_sort(int *array, size_t size);
+void print_data(char *msg, int *a, int from, int to);
+void merge(int *, int, int, int, int *);
+void msort(int *, int, int, int *);
+void merge_sort(int *, size_t);
 
 #endif
