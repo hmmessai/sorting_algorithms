@@ -25,5 +25,7 @@ void swap_till_end(listint_t **list, listint_t **element, size_t size);
 void selection_sort(int *array, size_t size);
 void _qsort(int *a, int low, int high, int size);
 void quick_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
+void _ssort(int *a, int size, int n);
 
 #endif
